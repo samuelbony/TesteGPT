@@ -1,0 +1,485 @@
+</table><br><div id="chartdiv_0" align="center"></div><script type="text/javascript">	
+		// Grafico plano horizontal
+		//// Cria grafico  
+		charts["_0"] = createChartData( 'Irradiação Solar no Plano Horizontal para Localidades próximas', ' 23,40588° S; 46,850813° O', series["_0"], colors["_0"] );		
+		//// Desenha grafico 
+		$('#chartdiv_0').highcharts( charts["_0"] );
+	</script><h2>Cálculo no Plano Inclinado</h2><div>
+<a name="localidade_5831"></a><strong>Estação:</strong> Cajamar</div><div>
+<strong>Município:</strong> Cajamar
+          , SP
+        - BRASIL</div><div>
+<strong>Latitude:</strong> 23,401°  S</div><div>
+<strong>Longitude:</strong> 46,849°  O</div><div>
+<strong>Distância do ponto de ref.<span style="font-size:smaller">( 23,40588° S; 46,850813° O)</span>:</strong>,6 km</div><table class="tb_sundata" border="1px">
+<thead>
+<tr>
+<th rowspan="2"><a href="javascript:checkAll('_5831','cb_5831')">#</a></th>
+<th rowspan="2">Ângulo</th>
+<th rowspan="2">Inclinação</th>
+<th colspan="16">Irradiação solar diária média mensal [kWh/m<sup>2</sup>.dia]</th>
+</tr>
+<tr class="tb_header">
+<th>Jan</th>
+<th>Fev</th>
+<th>Mar</th>
+<th>Abr</th>
+<th>Mai</th>
+<th>Jun</th>
+<th>Jul</th>
+<th>Ago</th>
+<th>Set</th>
+<th>Out</th>
+<th>Nov</th>
+<th>Dez</th>
+<th style="background-color:#E0E0E0">Média</th>
+<th style="background-color:#E0E0E0">Delta</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color:#FFFFCC">
+<td><input type="checkbox" name="cb_5831" value="0" checked onclick="updateChart('_5831', this.value, this.checked )"></td>
+<td>Plano Horizontal</td>
+<td>0° N</td>
+<td align="right">5,27</td>
+<td align="right">5,55</td>
+<td align="right">4,78</td>
+<td align="right">4,29</td>
+<td align="right">3,51</td>
+<td align="right"><span style="font-weight:bold; color:#CC3300">3,27</span></td>
+<td align="right">3,36</td>
+<td align="right">4,34</td>
+<td align="right">4,34</td>
+<td align="right">4,85</td>
+<td align="right">5,22</td>
+<td align="right"><span style="font-weight:bold; color: #0033CC">5,77</span></td>
+<td align="right"><strong>4,55</strong></td>
+<td align="right"><strong>2,50</strong></td>
+</tr>
+<tr style="background-color:#E1F1FF">
+<td><input type="checkbox" name="cb_5831" value="1" checked onclick="updateChart('_5831', this.value, this.checked )"></td>
+<td>Ângulo igual a latitude</td>
+<td>23° N</td>
+<td align="right">4,79</td>
+<td align="right"><span style="font-weight:bold; color: #0033CC">5,31</span></td>
+<td align="right">4,92</td>
+<td align="right">4,86</td>
+<td align="right">4,33</td>
+<td align="right"><span style="font-weight:bold; color:#CC3300">4,24</span></td>
+<td align="right">4,26</td>
+<td align="right">5,15</td>
+<td align="right">4,61</td>
+<td align="right">4,74</td>
+<td align="right">4,81</td>
+<td align="right">5,15</td>
+<td align="right"><strong>4,76</strong></td>
+<td align="right"><strong>1,07</strong></td>
+</tr>
+<tr style="">
+<td><input type="checkbox" name="cb_5831" value="2" checked onclick="updateChart('_5831', this.value, this.checked )"></td>
+<td>Maior média anual</td>
+<td>21° N</td>
+<td align="right">4,85</td>
+<td align="right"><span style="font-weight:bold; color: #0033CC">5,35</span></td>
+<td align="right">4,93</td>
+<td align="right">4,83</td>
+<td align="right">4,28</td>
+<td align="right"><span style="font-weight:bold; color:#CC3300">4,18</span></td>
+<td align="right">4,20</td>
+<td align="right">5,10</td>
+<td align="right">4,61</td>
+<td align="right">4,78</td>
+<td align="right">4,86</td>
+<td align="right">5,22</td>
+<td align="right"><strong>4,77</strong></td>
+<td align="right"><strong>1,18</strong></td>
+</tr>
+<tr style="background-color:#E1F1FF">
+<td><input type="checkbox" name="cb_5831" value="3" checked onclick="updateChart('_5831', this.value, this.checked )"></td>
+<td>Maior mínimo mensal</td>
+<td>32° N</td>
+<td align="right">4,48</td>
+<td align="right">5,05</td>
+<td align="right">4,82</td>
+<td align="right">4,93</td>
+<td align="right">4,51</td>
+<td align="right">4,48</td>
+<td align="right"><span style="font-weight:bold; color:#CC3300">4,47</span></td>
+<td align="right"><span style="font-weight:bold; color: #0033CC">5,30</span></td>
+<td align="right">4,58</td>
+<td align="right">4,56</td>
+<td align="right">4,51</td>
+<td align="right">4,77</td>
+<td align="right"><strong>4,71</strong></td>
+<td align="right"><strong>,83</strong></td>
+</tr>
+</tbody>
+</table><script type="text/javascript">
+	  	series['_5831'] = new Array();
+		colors['_5831'] = new Array();
+		data_display['_5831'] = new Array();
+	
+		allChecked['_5831'] = true;
+
+	  </script><script type="text/javascript">
+		series['_5831'].push( JSON.parse(' { "name": "Plano Horizontal: 0° N", ' +
+    ' "data": [ ' + 
+     ' 5.271,5.554,4.781,4.287,3.51,3.269,4.337,4.339,4.852,5.222,5.765 ' +
+     ' ] } ' ) );
+		colors['_5831'].push( '#999999');
+		data_display['_5831'].push(1);					
+	</script><script language="javascript" type="text/javascript"> 
+  		series['_5831'].push( JSON.parse(' { "name": "Ângulo igual a latitude: 23° N", ' +
+    ' "data": [ ' + 
+     ' 4.7924664709825,5.3089535783985,4.9199753250592,4.8613125786165,4.3298700927141,4.2411551150196,5.1509214906728,4.6146941871486,4.7449741914281,4.8074315293533,5.1470873694246 ' +
+     ' ] } ' ) );
+		colors['_5831'].push( '#1941A5');	
+		data_display['_5831'].push(1);			
+	</script><script language="javascript" type="text/javascript"> 
+  		series['_5831'].push( JSON.parse(' { "name": "Maior média anual: 21° N", ' +
+    ' "data": [ ' + 
+     ' 4.8531423501531,5.3538387689033,4.9303542285544,4.8337835158163,4.2783169416667,4.1760225072593,5.1043455749204,4.6116181669341,4.7751933886583,4.8631345523615,5.2211053672778 ' +
+     ' ] } ' ) );
+		colors['_5831'].push( '#AFD8F8');	
+		data_display['_5831'].push(1);			
+	</script><script language="javascript" type="text/javascript"> 
+  		series['_5831'].push( JSON.parse(' { "name": "Maior mínimo mensal: 32° N", ' +
+    ' "data": [ ' + 
+     ' 4.4786497449242,5.0543417604187,4.8206324218277,4.9296322890455,4.5107221939012,4.4828242281263,5.2991608710729,4.5785472502134,4.5615870350267,4.5142425701958,4.7712791455561 ' +
+     ' ] } ' ) );
+		colors['_5831'].push( '#F6BD0F');	
+		data_display['_5831'].push(1);			
+	</script><br><div id="chartdiv_5831" align="center"></div><script language="javascript" type="text/javascript">	
+		// Grafico plano inclinado
+		//// Cria grafico  
+		charts[ '_5831' ] = createChartData( 'Irradiação Solar no Plano Inclinado -Cajamar-Cajamar,  SP-BRASIL', ' 23,401° S; 46,849° O', series['_5831'], colors['_5831'] );		
+		//// Desenha grafico 
+		</script><p> </p><div>
+<a name="localidade_5830"></a><strong>Estação:</strong> Pirapora do Bom Jesus</div><div>
+<strong>Município:</strong> Pirapora do Bom Jesus
+          , SP
+        - BRASIL</div><div>
+<strong>Latitude:</strong> 23,401°  S</div><div>
+<strong>Longitude:</strong> 46,949°  O</div><div>
+<strong>Distância do ponto de ref.<span style="font-size:smaller">( 23,40588° S; 46,850813° O)</span>:</strong>10,0 km</div><table class="tb_sundata" border="1px">
+<thead>
+<tr>
+<th rowspan="2"><a href="javascript:checkAll('_5830','cb_5830')">#</a></th>
+<th rowspan="2">Ângulo</th>
+<th rowspan="2">Inclinação</th>
+<th colspan="16">Irradiação solar diária média mensal [kWh/m<sup>2</sup>.dia]</th>
+</tr>
+<tr class="tb_header">
+<th>Jan</th>
+<th>Fev</th>
+<th>Mar</th>
+<th>Abr</th>
+<th>Mai</th>
+<th>Jun</th>
+<th>Jul</th>
+<th>Ago</th>
+<th>Set</th>
+<th>Out</th>
+<th>Nov</th>
+<th>Dez</th>
+<th style="background-color:#E0E0E0">Média</th>
+<th style="background-color:#E0E0E0">Delta</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color:#FFFFCC">
+<td><input type="checkbox" name="cb_5830" value="0" checked onclick="updateChart('_5830', this.value, this.checked )"></td>
+<td>Plano Horizontal</td>
+<td>0° N</td>
+<td align="right">5,28</td>
+<td align="right">5,56</td>
+<td align="right">4,81</td>
+<td align="right">4,31</td>
+<td align="right">3,54</td>
+<td align="right"><span style="font-weight:bold; color:#CC3300">3,29</span></td>
+<td align="right">3,38</td>
+<td align="right">4,38</td>
+<td align="right">4,39</td>
+<td align="right">4,91</td>
+<td align="right">5,30</td>
+<td align="right"><span style="font-weight:bold; color: #0033CC">5,83</span></td>
+<td align="right"><strong>4,58</strong></td>
+<td align="right"><strong>2,54</strong></td>
+</tr>
+<tr style="background-color:#E1F1FF">
+<td><input type="checkbox" name="cb_5830" value="1" checked onclick="updateChart('_5830', this.value, this.checked )"></td>
+<td>Ângulo igual a latitude</td>
+<td>23° N</td>
+<td align="right">4,80</td>
+<td align="right"><span style="font-weight:bold; color: #0033CC">5,32</span></td>
+<td align="right">4,95</td>
+<td align="right">4,89</td>
+<td align="right">4,37</td>
+<td align="right"><span style="font-weight:bold; color:#CC3300">4,27</span></td>
+<td align="right">4,28</td>
+<td align="right">5,20</td>
+<td align="right">4,67</td>
+<td align="right">4,80</td>
+<td align="right">4,88</td>
+<td align="right">5,20</td>
+<td align="right"><strong>4,80</strong></td>
+<td align="right"><strong>1,05</strong></td>
+</tr>
+<tr style="">
+<td><input type="checkbox" name="cb_5830" value="2" checked onclick="updateChart('_5830', this.value, this.checked )"></td>
+<td>Maior média anual</td>
+<td>21° N</td>
+<td align="right">4,86</td>
+<td align="right"><span style="font-weight:bold; color: #0033CC">5,36</span></td>
+<td align="right">4,96</td>
+<td align="right">4,87</td>
+<td align="right">4,32</td>
+<td align="right"><span style="font-weight:bold; color:#CC3300">4,20</span></td>
+<td align="right">4,22</td>
+<td align="right">5,16</td>
+<td align="right">4,66</td>
+<td align="right">4,83</td>
+<td align="right">4,94</td>
+<td align="right">5,27</td>
+<td align="right"><strong>4,80</strong></td>
+<td align="right"><strong>1,16</strong></td>
+</tr>
+<tr style="background-color:#E1F1FF">
+<td><input type="checkbox" name="cb_5830" value="3" checked onclick="updateChart('_5830', this.value, this.checked )"></td>
+<td>Maior mínimo mensal</td>
+<td>32° N</td>
+<td align="right"><span style="font-weight:bold; color:#CC3300">4,49</span></td>
+<td align="right">5,06</td>
+<td align="right">4,85</td>
+<td align="right">4,96</td>
+<td align="right">4,56</td>
+<td align="right">4,51</td>
+<td align="right">4,50</td>
+<td align="right"><span style="font-weight:bold; color: #0033CC">5,35</span></td>
+<td align="right">4,63</td>
+<td align="right">4,62</td>
+<td align="right">4,58</td>
+<td align="right">4,82</td>
+<td align="right"><strong>4,74</strong></td>
+<td align="right"><strong>,86</strong></td>
+</tr>
+</tbody>
+</table><script type="text/javascript">
+	  	series['_5830'] = new Array();
+		colors['_5830'] = new Array();
+		data_display['_5830'] = new Array();
+	
+		allChecked['_5830'] = true;
+
+	  </script><script type="text/javascript">
+		series['_5830'].push( JSON.parse(' { "name": "Plano Horizontal: 0° N", ' +
+    ' "data": [ ' + 
+     ' 5.284,5.562,4.811,4.313,3.541,3.285,4.376,4.386,4.909,5.302,5.827 ' +
+     ' ] } ' ) );
+		colors['_5830'].push( '#999999');
+		data_display['_5830'].push(1);					
+	</script><script language="javascript" type="text/javascript"> 
+  		series['_5830'].push( JSON.parse(' { "name": "Ângulo igual a latitude: 23° N", ' +
+    ' "data": [ ' + 
+     ' 4.8037309376789,5.3165358462251,4.9520874826382,4.8935880009362,4.3734852823997,4.2652802768791,5.2026364597136,4.6677938631412,4.8011136029898,4.8783384087127,5.1992860579079 ' +
+     ' ] } ' ) );
+		colors['_5830'].push( '#1941A5');	
+		data_display['_5830'].push(1);			
+	</script><script language="javascript" type="text/javascript"> 
+  		series['_5830'].push( JSON.parse(' { "name": "Maior média anual: 21° N", ' +
+    ' "data": [ ' + 
+     ' 4.8646155930349,5.3615006759825,4.962469179586,4.8656957043156,4.3210734663433,4.1995715924188,5.1552490873689,4.6644905717787,4.8317284557022,4.9352080381439,5.2744186285789 ' +
+     ' ] } ' ) );
+		colors['_5830'].push( '#AFD8F8');	
+		data_display['_5830'].push(1);			
+	</script><script language="javascript" type="text/javascript"> 
+  		series['_5830'].push( JSON.parse(' { "name": "Maior mínimo mensal: 32° N", ' +
+    ' "data": [ ' + 
+     ' 4.4888526040678,5.0614686688689,4.852288370062,4.9630787256901,4.5575650033062,4.5091848243088,5.3537618020491,4.6319298041364,4.6152130779169,4.5790928588343,4.817920488855 ' +
+     ' ] } ' ) );
+		colors['_5830'].push( '#F6BD0F');	
+		data_display['_5830'].push(1);			
+	</script><br><div id="chartdiv_5830" align="center"></div><script language="javascript" type="text/javascript">	
+		// Grafico plano inclinado
+		//// Cria grafico  
+		charts[ '_5830' ] = createChartData( 'Irradiação Solar no Plano Inclinado -Pirapora do Bom Jesus-Pirapora do Bom Jesus,  SP-BRASIL', ' 23,401° S; 46,949° O', series['_5830'], colors['_5830'] );		
+		//// Desenha grafico 
+		</script><p> </p><div>
+<a name="localidade_5832"></a><strong>Estação:</strong> Sao Paulo</div><div>
+<strong>Município:</strong> Sao Paulo
+          , SP
+        - BRASIL</div><div>
+<strong>Latitude:</strong> 23,401°  S</div><div>
+<strong>Longitude:</strong> 46,749°  O</div><div>
+<strong>Distância do ponto de ref.<span style="font-size:smaller">( 23,40588° S; 46,850813° O)</span>:</strong>10,4 km</div><table class="tb_sundata" border="1px">
+<thead>
+<tr>
+<th rowspan="2"><a href="javascript:checkAll('_5832','cb_5832')">#</a></th>
+<th rowspan="2">Ângulo</th>
+<th rowspan="2">Inclinação</th>
+<th colspan="16">Irradiação solar diária média mensal [kWh/m<sup>2</sup>.dia]</th>
+</tr>
+<tr class="tb_header">
+<th>Jan</th>
+<th>Fev</th>
+<th>Mar</th>
+<th>Abr</th>
+<th>Mai</th>
+<th>Jun</th>
+<th>Jul</th>
+<th>Ago</th>
+<th>Set</th>
+<th>Out</th>
+<th>Nov</th>
+<th>Dez</th>
+<th style="background-color:#E0E0E0">Média</th>
+<th style="background-color:#E0E0E0">Delta</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color:#FFFFCC">
+<td><input type="checkbox" name="cb_5832" value="0" checked onclick="updateChart('_5832', this.value, this.checked )"></td>
+<td>Plano Horizontal</td>
+<td>0° N</td>
+<td align="right">5,31</td>
+<td align="right">5,60</td>
+<td align="right">4,79</td>
+<td align="right">4,31</td>
+<td align="right">3,52</td>
+<td align="right"><span style="font-weight:bold; color:#CC3300">3,28</span></td>
+<td align="right">3,36</td>
+<td align="right">4,34</td>
+<td align="right">4,38</td>
+<td align="right">4,89</td>
+<td align="right">5,26</td>
+<td align="right"><span style="font-weight:bold; color: #0033CC">5,81</span></td>
+<td align="right"><strong>4,57</strong></td>
+<td align="right"><strong>2,53</strong></td>
+</tr>
+<tr style="background-color:#E1F1FF">
+<td><input type="checkbox" name="cb_5832" value="1" checked onclick="updateChart('_5832', this.value, this.checked )"></td>
+<td>Ângulo igual a latitude</td>
+<td>23° N</td>
+<td align="right">4,83</td>
+<td align="right"><span style="font-weight:bold; color: #0033CC">5,36</span></td>
+<td align="right">4,93</td>
+<td align="right">4,89</td>
+<td align="right">4,35</td>
+<td align="right">4,25</td>
+<td align="right"><span style="font-weight:bold; color:#CC3300">4,25</span></td>
+<td align="right">5,15</td>
+<td align="right">4,66</td>
+<td align="right">4,78</td>
+<td align="right">4,84</td>
+<td align="right">5,19</td>
+<td align="right"><strong>4,79</strong></td>
+<td align="right"><strong>1,10</strong></td>
+</tr>
+<tr style="">
+<td><input type="checkbox" name="cb_5832" value="2" checked onclick="updateChart('_5832', this.value, this.checked )"></td>
+<td>Maior média anual</td>
+<td>21° N</td>
+<td align="right">4,89</td>
+<td align="right"><span style="font-weight:bold; color: #0033CC">5,40</span></td>
+<td align="right">4,94</td>
+<td align="right">4,86</td>
+<td align="right">4,29</td>
+<td align="right"><span style="font-weight:bold; color:#CC3300">4,19</span></td>
+<td align="right">4,19</td>
+<td align="right">5,11</td>
+<td align="right">4,65</td>
+<td align="right">4,81</td>
+<td align="right">4,90</td>
+<td align="right">5,26</td>
+<td align="right"><strong>4,79</strong></td>
+<td align="right"><strong>1,21</strong></td>
+</tr>
+<tr style="background-color:#E1F1FF">
+<td><input type="checkbox" name="cb_5832" value="3" checked onclick="updateChart('_5832', this.value, this.checked )"></td>
+<td>Maior mínimo mensal</td>
+<td>33° N</td>
+<td align="right"><span style="font-weight:bold; color:#CC3300">4,47</span></td>
+<td align="right">5,06</td>
+<td align="right">4,81</td>
+<td align="right">4,96</td>
+<td align="right">4,54</td>
+<td align="right">4,52</td>
+<td align="right">4,48</td>
+<td align="right"><span style="font-weight:bold; color: #0033CC">5,31</span></td>
+<td align="right">4,61</td>
+<td align="right">4,57</td>
+<td align="right">4,51</td>
+<td align="right">4,76</td>
+<td align="right"><strong>4,72</strong></td>
+<td align="right"><strong>,84</strong></td>
+</tr>
+</tbody>
+</table><script type="text/javascript">
+	  	series['_5832'] = new Array();
+		colors['_5832'] = new Array();
+		data_display['_5832'] = new Array();
+	
+		allChecked['_5832'] = true;
+
+	  </script><script type="text/javascript">
+		series['_5832'].push( JSON.parse(' { "name": "Plano Horizontal: 0° N", ' +
+    ' "data": [ ' + 
+     ' 5.312,5.603,4.79,4.309,3.521,3.278,4.338,4.376,4.885,5.263,5.812 ' +
+     ' ] } ' ) );
+		colors['_5832'].push( '#999999');
+		data_display['_5832'].push(1);					
+	</script><script language="javascript" type="text/javascript"> 
+  		series['_5832'].push( JSON.parse(' { "name": "Ângulo igual a latitude: 23° N", ' +
+    ' "data": [ ' + 
+     ' 4.8279895479888,5.3553935604691,4.9296082894285,4.8886213816733,4.3453409447235,4.2547231408607,5.1522465341537,4.6564938444304,4.7774755396936,4.843775101491,5.1866600365002 ' +
+     ' ] } ' ) );
+		colors['_5832'].push( '#1941A5');	
+		data_display['_5832'].push(1);			
+	</script><script language="javascript" type="text/javascript"> 
+  		series['_5832'].push( JSON.parse(' { "name": "Maior média anual: 21° N", ' +
+    ' "data": [ ' + 
+     ' 4.8893242284246,5.4007668672818,4.9399880652847,4.8607850493967,4.2934835193103,4.1892666716485,5.1056498832307,4.6532390466375,4.8079237579674,4.9000755765835,5.2615226805858 ' +
+     ' ] } ' ) );
+		colors['_5832'].push( '#AFD8F8');	
+		data_display['_5832'].push(1);			
+	</script><script language="javascript" type="text/javascript"> 
+  		series['_5832'].push( JSON.parse(' { "name": "Maior mínimo mensal: 33° N", ' +
+    ' "data": [ ' + 
+     ' 4.4716470138281,5.0641909388365,4.8138105822708,4.9599322736806,4.5422454354351,4.5192596311375,5.3107373697015,4.61149203814,4.5673903379273,4.510432429096,4.7603271070595 ' +
+     ' ] } ' ) );
+		colors['_5832'].push( '#F6BD0F');	
+		data_display['_5832'].push(1);			
+	</script><br><div id="chartdiv_5832" align="center"></div><script language="javascript" type="text/javascript">	
+		// Grafico plano inclinado
+		//// Cria grafico  
+		charts[ '_5832' ] = createChartData( 'Irradiação Solar no Plano Inclinado -Sao Paulo-Sao Paulo,  SP-BRASIL', ' 23,401° S; 46,749° O', series['_5832'], colors['_5832'] );		
+		//// Desenha grafico 
+		</script><p> </p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" language="javascript" src="js/rer_init.js"></script>
+              </td>
+            </tr>
+          </table></td>
+      </tr>
+      <tr>
+        <td><div class="bottom" align="center">
+  <!--<div style="text-align:center; padding:0.5em 0"><a href="http://www.mme.gov.br/" target="_blank"><img src="images/logos/mme.png" alt="logo Minit rio de Minas e Energia" border="0" hspace="25" align="middle"/></a> <a href="http://www.cepel.br/" target="_blank"><img src="images/logos/eletrobras_cepel_h.png" alt="logo Eletrobras" border="0"  hspace="25" vspace="2" align="middle"/></a> </div>-->
+  <div> 
+    <p>CRESESB - Centro de Refer&ecirc;ncia para Energia Solar e E&oacute;lica S&eacute;rgio Brito / CEPEL - Centro de Pesquisas de Energia El&eacute;trica<br />
+      Av. Hor&aacute;cio Macedo, 354 - Cidade Universit&aacute;ria - Rio de Janeiro - RJ - Brasil, CEP 21941-911<br />
+      <strong>Tel:</strong> 55 (21) 2598-6174 / 2598-6187 - <strong>Fax:</strong> 55 (21) 2280-3537 - <strong>E-mail:</strong>
+      <script type="text/javascript"> writeEmail( "crese", "cepel.br" ); </script>
+      <br />
+      (Atendimento de segunda &agrave; sexta, das 8:00 &agrave;s 16:30)</p>
+    <p>Arte e Desenvolvimento Web: Bruno Montezano, 2014</p>
+  </div>
+</div>
+</td>
+      </tr>
+    </table>
+  </div>
+</div>
+</body>
+</html>
